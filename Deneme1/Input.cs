@@ -10,10 +10,10 @@ namespace Deneme1
     [Flags]
     internal enum Input
     {
-        Up=1,
-        Left=2,
-        Down=4,
-        Right= 8,
-        Back= 16
+        Up = 1,
+        Left = 2,
+        Down = 4,
+        Right = 8,
+        Back = 16
     }
 }

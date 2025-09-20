@@ -14,17 +14,19 @@ namespace Deneme1
         public Dictionary<Buttons, Input> keyBingingGamepad;
 
         private bool isUsingKeyboard;
+
+        private int playerInput;
         public InputManager(bool pIsUsingKeyboard)
         {
             isUsingKeyboard = pIsUsingKeyboard;
 
-            keyBindingKeyboard = new Dictionary<Keys, Input> 
+            keyBindingKeyboard = new Dictionary<Keys, Input>
             {
                 { Keys.W, Input.Up },
                 { Keys.A, Input.Left },
                 { Keys.S, Input.Down },
                 { Keys.D, Input.Right },
-                { Keys.Escape, Input.Back}
+                { Keys.Escape, Input.Back }
             };
         }
 
@@ -35,7 +37,12 @@ namespace Deneme1
                 Keys[] pressedKeys = Keyboard.GetState(pPlayer).GetPressedKeys();
                 foreach (Keys keys in pressedKeys)
                 {
-                    if(keyBindingKeyboard)wsdasfa
+                    if (keyBindingKeyboard.ContainsKey(key))
+                    { 
+                        
+                    }
+
+
                 }
             } else
             {
