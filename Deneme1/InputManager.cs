@@ -35,7 +35,7 @@ namespace Deneme1
                 Keys[] pressedKeys = Keyboard.GetState(pPlayer).GetPressedKeys();
                 foreach (Keys keys in pressedKeys)
                 {
-                    if(keyBindingKeyboard)
+                    if(keyBindingKeyboard)wsdasfa
                 }
             } else
             {
